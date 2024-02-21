@@ -1,0 +1,23 @@
+button {
+    width: 20%;
+    padding: 15px;
+    border-radius: 25px;
+    margin: 10px;
+    background-color: white;
+}
+
+#btnRed {
+    color: red
+}
+
+#btnBlue {
+    color: blue;
+}
+
+#btnOrange {
+    color: orange;
+}
+
+#btnGreen {
+    color: green;
+}
