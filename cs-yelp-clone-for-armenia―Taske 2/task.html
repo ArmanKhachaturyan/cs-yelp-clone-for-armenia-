@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="task.css" />
+
+</head>
+
+<body>
+    <main>
+        <select class="categoryFilter" id="categoryFilter">
+            <option value="all">All Category</option>
+            <option value="Home">Home</option>
+            <option value="Apparel">Apparel</option>
+            <option value="Electonics" ></option>
+        </select>
+
+
+        <label>
+            <input type="checkbox" class="tagFilter" value="eco-friendly"> Eco-friendly
+        </label>
+        <label>
+            <input type="checkbox" class="tagFilter" value="new"> New 
+       </label>
+        <label>
+        <input type="checkbox" class="tagFilter" value="sale">Sale
+    
+   </label>
+    </main>
+
+    <dev class="productListings" id="productListings"></dev>
+    <div id="noResults" style="display:none;">No products found.</div>
+
+    <script src="task.js"></script>
+</body>
+
+</html>
