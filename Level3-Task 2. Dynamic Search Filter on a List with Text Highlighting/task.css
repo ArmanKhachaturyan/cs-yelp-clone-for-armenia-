@@ -1,0 +1,56 @@
+body {
+    background-color: darkslategrey;
+}
+
+.search {
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    border-radius: 15px;
+}
+
+.searchInput {
+    background-color: cornsilk;
+    width: 70%;
+    color: darkslategrey;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 7px inset darkseagreen;
+    padding: 2%;
+}
+
+.book,
+.NoBooksFound {
+    background-color: azure;
+    border-radius: 20px;
+    border: 7px inset darkseagreen;
+    margin: 2%;
+    text-align: center;
+}
+
+.title {
+    color: darkgreen;
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.year {
+    color: darkolivegreen;
+}
+
+.author {
+    color: green;
+}
+
+.NoBooksFound {
+    color: darkred;
+    padding: 5%;
+    font-size: 30px;
+    margin: 5%;
+}
+
+.highlight {
+    color: darkcyan;
+    font-size: x-large;
+}
